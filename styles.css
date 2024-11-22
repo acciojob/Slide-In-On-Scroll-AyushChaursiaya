@@ -27,7 +27,22 @@
       text-align: justify;
     }
 
-    .align-left {
+	 img {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            opacity: 0;
+            transform: translateX(50px);
+            transition: all 0.7s ease-out;
+        }
+
+        img.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+
+    /* .align-left {
       float: left;
       margin-right: 20px;
     }
@@ -53,3 +68,4 @@
       opacity: 1;
       transform: translateX(0%) scale(1);
     }
+ */
